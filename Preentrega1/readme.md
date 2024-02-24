@@ -140,7 +140,57 @@ This project involves building a Node.js and Express server to handle various en
 
 ### Error Handling
 
-- If a route is not found, the server returns a 404 error with the message "Route not found."
+The server includes error handling for various scenarios. Here are some common error responses you may encounter:
+
+### 1. Route Not Found
+
+- **Status Code:** 404 Not Found
+- **Response:**
+
+  ```json
+  {
+      "error": "Route not found"
+  }
+
+### 2. Product Not Found
+
+- **Status Code:** 404 Not Found
+- **Response:**
+
+  ```json
+  {
+      "error": "No product found with the specified ID"
+  }
+
+### 3. Product Already Exists in Cart
+
+- **Status Code:** 400 Bad Request
+- **Response:**
+
+  ```json
+  {
+      "error": "Product already exists in the cart"
+  }  
+
+### 4. Missing Data
+
+- **Status Code:** 400 Bad Request
+- **Response:**
+
+  ```json
+  {
+      "error": "Missing data"
+  }
+
+### 5. Invalid Product Code
+
+- **Status Code:** 400 Bad Request
+- **Response:**
+
+  ```json
+  {
+      "error": "The code must be a number"
+  }
 
 ## Product Manager Class (`ProductManager.js`)
 
