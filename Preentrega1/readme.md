@@ -73,12 +73,11 @@ This project involves building a Node.js and Express server to handle various en
     {
         "title": "New Product",
         "description": "Description of the new product",
-        "code": "ABC123",
-        "price": 29.99,
+        "code": 123,
+        "price": 30,
         "status": true,
         "stock": 50,
-        "category": "Electronics",
-        "thumbnails": ["path/to/image1", "path/to/image2"]
+        "thumbnails": []
     }
     ```
 
@@ -91,7 +90,7 @@ This project involves building a Node.js and Express server to handle various en
 
     ```json
     {
-        "price": 34.99,
+        "price": 35,
         "stock": 60
     }
     ```
