@@ -6,6 +6,8 @@
     "price": 100,
     "thumbnail": "No image",
     "code": 1,
+    "status": true,
+    "category": "Dry fruits",
     "stock": 100
   },
   {
@@ -15,6 +17,8 @@
     "price": 35,
     "thumbnail": "No image",
     "code": 2,
+    "status": true,
+    "category": "Dry fruits",
     "stock": 650
   },
   {
@@ -24,6 +28,8 @@
     "price": 150,
     "thumbnail": "No image",
     "code": 3,
+    "status": true,
+    "category": "Dry fruits",
     "stock": 100
   },
   {
@@ -33,6 +39,8 @@
     "price": 300,
     "thumbnail": "No image",
     "code": "4",
+    "status": true,
+    "category": "Dry fruits",
     "stock": 100
   },
   {
@@ -42,6 +50,8 @@
     "price": 30,
     "thumbnail": "No image",
     "code": 5,
+    "status": true,
+    "category": "Dry fruits",
     "stock": 200
   },
   {
@@ -51,6 +61,8 @@
     "price": 20,
     "thumbnail": "No image",
     "code": 6,
+    "status": true,
+    "category": "Cereals",
     "stock": 500
   },
   {
@@ -60,6 +72,8 @@
     "price": 25,
     "thumbnail": "No image",
     "code": 7,
+    "status": true,
+    "category": "Cereals",
     "stock": 500
   },
   {
@@ -69,6 +83,8 @@
     "price": 20,
     "thumbnail": "No image",
     "code": 8,
+    "status": true,
+    "category": "Dry fruits",
     "stock": 1000
   },
   {
@@ -78,6 +94,8 @@
     "price": 10,
     "thumbnail": "No image",
     "code": 9,
+    "status": true,
+    "category": "Cereals",
     "stock": 100
   },
   {
@@ -87,15 +105,19 @@
     "price": 50,
     "thumbnail": "No image",
     "code": 10,
+    "status": true,
+    "category": "Flours",
     "stock": 100
   },
   {
     "id": 11,
-    "title": "Test",
-    "description": "Empty",
+    "title": "Pure Honey",
+    "description": "Unprocessed organic honey",
     "price": 10,
     "thumbnail": "No image",
     "code": 11,
-    "stock": 100
+    "status": true,
+    "category": "Added sugar",
+    "stock": 200
   }
 ]

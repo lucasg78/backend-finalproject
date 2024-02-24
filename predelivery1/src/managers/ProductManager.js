@@ -43,7 +43,7 @@ class ProductManager {
     // Asynchronous function to add a new product to the array
     async addProduct(newProduct) {
         // Check if essential data fields are missing in the new product
-        if (!newProduct.title || !newProduct.description || !newProduct.price || !newProduct.thumbnail || !newProduct.code || !newProduct.stock) {
+        if (!newProduct.title || !newProduct.description || !newProduct.price || !newProduct.thumbnail || !newProduct.code || !newProduct.category || !newProduct.stock) {
             console.error("Missing data");
             throw new Error("Missing data");
         }
@@ -69,6 +69,8 @@ class ProductManager {
             price: newProduct.price,
             thumbnail: newProduct.thumbnail,
             code: newProduct.code,
+            status: true,
+            category: newProduct.category,
             stock: newProduct.stock
         };
 
