@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Almonds",
+    "description": "Peeled non-pareil almonds",
+    "price": 100,
+    "thumbnail": "No image",
+    "code": 1,
+    "stock": 100
+  },
+  {
+    "id": 2,
+    "title": "Walnuts",
+    "description": "Peeled butterfly walnuts",
+    "price": 500,
+    "thumbnail": "No image",
+    "code": 2,
+    "stock": 100
+  },
+  {
+    "id": 3,
+    "title": "Chestnuts",
+    "description": "Split cashews",
+    "price": 150,
+    "thumbnail": "No image",
+    "code": 3,
+    "stock": 100
+  },
+  {
+    "id": 4,
+    "title": "Hazelnuts",
+    "description": "Peeled large hazelnuts",
+    "price": 300,
+    "thumbnail": "No image",
+    "code": "4",
+    "stock": 100
+  },
+  {
+    "id": 5,
+    "title": "Raisins",
+    "description": "Black raisins",
+    "price": 30,
+    "thumbnail": "No image",
+    "code": 5,
+    "stock": 200
+  },
+  {
+    "id": 6,
+    "title": "Oats",
+    "description": "Instant rolled oats",
+    "price": 20,
+    "thumbnail": "No image",
+    "code": 6,
+    "stock": 500
+  },
+  {
+    "id": 7,
+    "title": "Cornflakes",
+    "description": "Sugar-free cornflakes",
+    "price": 25,
+    "thumbnail": "No image",
+    "code": 7,
+    "stock": 500
+  },
+  {
+    "id": 8,
+    "title": "Peanuts",
+    "description": "Roasted salted peanuts",
+    "price": 20,
+    "thumbnail": "No image",
+    "code": 8,
+    "stock": 1000
+  },
+  {
+    "id": 9,
+    "title": "Rice Crisps",
+    "description": "Rice flour crisps",
+    "price": 10,
+    "thumbnail": "No image",
+    "code": 9,
+    "stock": 100
+  },
+  {
+    "id": 10,
+    "title": "Cassava Starch",
+    "description": "Cassava starch",
+    "price": 50,
+    "thumbnail": "No image",
+    "code": 10,
+    "stock": 100
+  },
+  {
+    "id": 11,
+    "title": "Test",
+    "description": "Empty",
+    "price": 10,
+    "thumbnail": "No image",
+    "code": 11,
+    "stock": 100
+  }
+]
