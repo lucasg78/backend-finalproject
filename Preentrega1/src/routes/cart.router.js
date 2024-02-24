@@ -46,7 +46,24 @@ router.post("/:cid/product/:pid", async (req, res) => {
         const cartId = req.params.cid;
         const productId = parseInt(req.params.pid);
         const quantity = req.body.quantity || 1;
-        await carts.addProductToCart(cartId, productId, quantity);
+
+        // Get the cart
+        const cart = await carts.getCartById(cartId);
+
+        // Check if the product already exists in the cart
+        const existingProduct = cart.products.find(product => product.id === productId);
+
+        if (existingProduct) {
+            // If the product exists, update its quantity
+            existingProduct.quantity += quantity;
+        } else {
+            // If the product is not in the cart, add it with the given quantity
+            cart.products.push({ id: productId, quantity });
+        }
+
+        // Save the updated cart
+        await carts.saveCarts();
+
         res.json({ message: "Product added to the cart successfully" });
     } catch (error) {
         res.status(400).json({ error: error.message });

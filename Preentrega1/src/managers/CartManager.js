@@ -77,6 +77,7 @@ class CartManager {
             throw new Error(`No cart found with id ${cartId}`);
         }
         console.log(`Adding product ${productId} to cart ${cartId} with quantity ${quantity}`);
+
         // Check if the product already exists in the cart
         const existingProduct = cart.products.find(product => product.id === productId);
 
@@ -90,6 +91,17 @@ class CartManager {
 
         await this.saveCarts();
     }
+
+    async productExists(productId) {
+        // Implement a method to check if a product with the specified ID exists
+        try {
+            await this.products.getProductById(productId);
+            return true;
+        } catch (error) {
+            return false;
+        }
+    }
+
 }
 
 // Export the CartManager class for use in other modules
