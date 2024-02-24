@@ -73,9 +73,10 @@ This project involves building a Node.js and Express server to handle various en
     {
         "title": "New Product",
         "description": "Description of the new product",
-        "code": 123,
         "price": 30,
+        "code": 123,
         "status": true,
+        "category": "Text",
         "stock": 50,
         "thumbnails": []
     }
